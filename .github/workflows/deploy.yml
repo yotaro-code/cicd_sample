@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main # mainブランチにpushされたとき実行
+    workflow_dispatch: # 👈 手動実行を有効化！
 
 jobs:
   build_and_deploy:
