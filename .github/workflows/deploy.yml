@@ -35,3 +35,4 @@ jobs:
           repoToken: "${{ secrets.GITHUB_TOKEN }}"
           firebaseServiceAccount: "${{ secrets.FIREBASE_SERVICE_ACCOUNT_CICD_F8895 }}"
           channelId: live
+          projectId: cicd-f8895
